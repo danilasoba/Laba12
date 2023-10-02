@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         TextView txtHello = findViewById(R.id.textView);
         txtHello.setText("Postavte 10");
     }
+    public void butClick2 (View view){
+        TextView txtHello = findViewById(R.id.textView);
+        txtHello.setTextColor(Color.RED);
+    }
 }
